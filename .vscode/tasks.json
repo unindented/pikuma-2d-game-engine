@@ -1,0 +1,69 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build (Debug)",
+      "type": "cppbuild",
+      "command": "gmake",
+      "args": [
+        "--no-builtin-variables",
+        "BUILD_TYPE=DEBUG"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build (Release)",
+      "type": "cppbuild",
+      "command": "gmake",
+      "args": [
+        "--no-builtin-variables",
+        "BUILD_TYPE=RELEASE"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": "gmake",
+      "args": [
+        "--no-builtin-variables",
+        "run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Clean",
+      "type": "shell",
+      "command": "gmake",
+      "args": [
+        "--no-builtin-variables",
+        "clean"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
