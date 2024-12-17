@@ -227,4 +227,4 @@ namespace glm
 	/// @}
 }//namespace glm
 
-#include "type_ptr.inl"
+#include "./type_ptr.inl"

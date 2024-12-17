@@ -20,8 +20,8 @@
 // Dependency:
 #include "../trigonometric.hpp"
 #include "../exponential.hpp"
-#include "scalar_constants.hpp"
-#include "vector_relational.hpp"
+#include "./scalar_constants.hpp"
+#include "./vector_relational.hpp"
 #include <limits>
 
 #if GLM_MESSAGES == GLM_ENABLE && !defined(GLM_EXT_INCLUDED)
@@ -34,6 +34,8 @@ namespace glm
 	/// @{
 
 	/// Returns the quaternion rotation angle.
+	///
+	/// @param x A normalized quaternion.
 	///
 	/// @tparam T A floating-point scalar type
 	/// @tparam Q A value from qualifier enum
@@ -60,4 +62,4 @@ namespace glm
 	/// @}
 } //namespace glm
 
-#include "quaternion_trigonometric.inl"
+#include "./quaternion_trigonometric.inl"

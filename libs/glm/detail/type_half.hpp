@@ -1,6 +1,6 @@
 #pragma once
 
-#include "setup.hpp"
+#include "./setup.hpp"
 
 namespace glm{
 namespace detail
@@ -13,4 +13,4 @@ namespace detail
 }//namespace detail
 }//namespace glm
 
-#include "type_half.inl"
+#include "./type_half.inl"

@@ -129,4 +129,4 @@ namespace glm
 	/// @}
 }//namespace glm
 
-#include "matrix_relational.inl"
+#include "./matrix_relational.inl"

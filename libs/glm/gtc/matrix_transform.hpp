@@ -33,4 +33,4 @@
 #	pragma message("GLM: GLM_GTC_matrix_transform extension included")
 #endif
 
-#include "matrix_transform.inl"
+#include "./matrix_transform.inl"

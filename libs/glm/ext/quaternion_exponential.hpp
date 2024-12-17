@@ -60,4 +60,4 @@ namespace glm
 	/// @}
 } //namespace glm
 
-#include "quaternion_exponential.inl"
+#include "./quaternion_exponential.inl"

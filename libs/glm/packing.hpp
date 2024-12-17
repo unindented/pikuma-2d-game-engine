@@ -170,4 +170,4 @@ namespace glm
 	/// @}
 }//namespace glm
 
-#include "detail/func_packing.inl"
+#include "./detail/func_packing.inl"

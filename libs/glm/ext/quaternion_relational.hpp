@@ -59,4 +59,4 @@ namespace glm
 	/// @}
 } //namespace glm
 
-#include "quaternion_relational.inl"
+#include "./quaternion_relational.inl"

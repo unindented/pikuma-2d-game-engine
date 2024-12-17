@@ -1,6 +1,6 @@
 #pragma once
 
-#include "setup.hpp"
+#include "./setup.hpp"
 
 #if GLM_COMPILER == GLM_COMPILER_VC12
 #	pragma warning(push)

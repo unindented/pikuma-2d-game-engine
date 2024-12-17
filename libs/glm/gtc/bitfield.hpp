@@ -20,7 +20,7 @@
 #include "../ext/scalar_uint_sized.hpp"
 #include "../detail/qualifier.hpp"
 #include "../detail/_vectorize.hpp"
-#include "type_precision.hpp"
+#include "./type_precision.hpp"
 #include <limits>
 
 #if GLM_MESSAGES == GLM_ENABLE && !defined(GLM_EXT_INCLUDED)
@@ -263,4 +263,4 @@ namespace glm
 	/// @}
 } //namespace glm
 
-#include "bitfield.inl"
+#include "./bitfield.inl"

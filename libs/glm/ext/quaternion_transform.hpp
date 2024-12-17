@@ -44,4 +44,4 @@ namespace glm
 	/// @}
 } //namespace glm
 
-#include "quaternion_transform.inl"
+#include "./quaternion_transform.inl"

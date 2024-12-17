@@ -2,7 +2,7 @@
 /// @file glm/detail/func_packing.inl
 
 #include "../common.hpp"
-#include "type_half.hpp"
+#include "./type_half.hpp"
 
 namespace glm
 {
@@ -42,7 +42,7 @@ namespace glm
 			signed short in[2];
 			uint out;
 		} u;
- 
+
 		vec<2, short, defaultp> result(round(clamp(v, -1.0f, 1.0f) * 32767.0f));
 
 		u.in[0] = result[0];

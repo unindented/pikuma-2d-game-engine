@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "geometric.h"
+#include "./geometric.h"
 
 #if GLM_ARCH & GLM_ARCH_SSE2_BIT
 
